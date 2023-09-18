@@ -12,7 +12,7 @@ const PriceOption = ({ option }) => {
             <h4 className='text-xl mt-5'>Features-</h4>
             <ul className='space-y-2 flex-1'>{
                 features.map((feature,idx) => <Feature key={idx} feature={feature}></Feature>)}</ul>
-                <button className='bg-amber-700 text-white px-3 py-2 w-full rounded-lg mt-5'>Buy now</button>
+                <button className='btn bg-amber-700 hover:bg-amber-400 hover:text-black text-white px-3 py-2 w-full rounded-lg mt-5'>Buy now</button>
         </div>
     );
 };

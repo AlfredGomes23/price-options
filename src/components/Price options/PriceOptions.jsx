@@ -46,7 +46,7 @@ const PriceOptions = () => {
 
     return (
         <div>
-            <h2 className="text=5xl">Best Prices in the town</h2>
+            <h2 className="text-3xl lg:text-5xl text-center p-5">Best Prices in the town</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {
                 priceOptions.map(priceOption => <PriceOption key={priceOption.is} option={priceOption}></PriceOption>)
