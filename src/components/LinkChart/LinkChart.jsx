@@ -24,7 +24,7 @@ const LinkChart = () => {
                 <CartesianGrid/>
                 <Line dataKey="biology" stroke='pink'></Line>
                 <Line dataKey="physics" stroke='blue'></Line>
-                <XAxis dataKey={name}/> <YAxis/>
+                <XAxis dataKey='name'/> <YAxis/>
             </LChart>
         </div>
     );
